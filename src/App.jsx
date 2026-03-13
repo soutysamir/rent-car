@@ -12,6 +12,7 @@ import Details from './Components/Details/Details.jsx'
 function App() {
 
 const routes=createBrowserRouter([
+  { path: "/", element: <Home /> },
   {path:'/home',element:<Home/>},
   { path: '/Vehicles', element: <AllVehicles/> },
    { path: "/details/:id", element: <Details/> },
