@@ -1,0 +1,27 @@
+.bgImage{
+   background-image: url("../../assets/images/landing-page/Vector-B-y_5Inb.png");
+   background-size:991px ;
+    background-position:left center;
+    height:auto !important; 
+    position: relative;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.top{
+margin-top: 10rem;
+width: 80%;
+}
+
+
+@media only screen and (max-width: 600px) {
+.bgImage{
+      background-size: 600px;
+      background-position: left center;
+  }
+.top{
+margin-top: 8rem;
+width: 80%;
+}
+}

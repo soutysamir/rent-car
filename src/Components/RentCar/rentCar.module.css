@@ -1,0 +1,31 @@
+.bgImg{
+    background-image: url("../../assets/images/landing-page/Vector-B-y_5Inb.png");
+ background-position: left ;
+   background-repeat: no-repeat;
+    background-size:400px 460px;
+    height:auto !important ;
+    background-origin: border-box;
+   
+}
+.customForm{
+border-radius: 80px !important;
+padding:.7rem 1.5rem !important; 
+background:#cedcff !important;
+width: 350px;
+}
+.wIphone{
+    width: 70% !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+.phoneView{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+
+}
+
+}

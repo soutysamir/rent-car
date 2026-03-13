@@ -1,0 +1,71 @@
+
+.bgImage {
+    background-image: url(../../assets/images/landing-page/Frame.png);
+    background-repeat: no-repeat;
+    background-size: 35% 90%;
+    background-origin: border-box;
+    background-position: right center;
+}
+ .titleBox{
+  margin-top: 150px;
+ }
+
+.car{
+  width:70%;
+  opacity:0;
+  transform: scale(0.5);
+  animation: caranimate 1.5s ease forwards;
+}
+
+@keyframes caranimate {
+  to{
+    opacity:1;
+   
+    transform: scale(1);
+  }
+}
+
+
+
+.text{
+animation: textanimate 2s forwards;
+}
+
+@keyframes textanimate {
+    0% {
+        margin-top: 0
+    }
+
+    to {
+        margin-top: 7rem
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .bgImage {
+    background-image: url(../../assets/images/landing-page/Frame.png);
+    background-repeat: no-repeat;
+    background-size: 80% 90%;
+    background-origin: border-box;
+    background-position: right center;
+}
+.titleBox{
+  margin-top: 0px;
+ }
+ @keyframes textanimate {
+    0% {
+        margin-top: 0
+    }
+
+    to {
+        margin-top: .25rem
+    }
+}
+.titleBox{
+  width: 90% !important;
+}
+
+}
+
